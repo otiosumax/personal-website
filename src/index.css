@@ -38,19 +38,28 @@ body {
 }
 
 p {
-  font-size: 34px;
+  font-size: 26px;
 }
 
 h1 {
   font-size: 56pt;
 }
 
-.wrapper {
-  width: 100%;
-  padding: 0 112px;
+h2 {
+  font-size: 42pt;
+}
 
-  /* width: 1000pt;
-  margin: 0 auto; */
+h3 {
+  font-size: 34pt;
+  margin: 34pt 0 17pt 0;
+}
+
+.wrapper {
+  /* width: 100%;
+  padding: 0 112px; */
+
+  width: 1000pt;
+  margin: 0 auto;
 }
 
 .background-rectangle {
@@ -58,4 +67,11 @@ h1 {
   background-color: rgb(from var(--primary-color) r g b / 34%);
   position: absolute;
   z-index: -1;
+}
+
+@media screen and (max-width: 1100pt) {
+  .wrapper {
+    width: calc(100% - 224px);
+    padding: 0 112px;
+  }
 }

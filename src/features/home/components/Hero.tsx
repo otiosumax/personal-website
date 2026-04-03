@@ -11,7 +11,11 @@ export default function Hero() {
             <span>разработчик</span>
           </h1>
           <div id="separator" />
-          <p>Всегда готов к новым вызовам!</p>
+          <p>
+            Всегда готов к новым
+            <br />
+            вызовам!
+          </p>
         </div>
         <div style={{ position: "relative" }}>
           <p id="location">г. Москва</p>

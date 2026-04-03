@@ -1,0 +1,9 @@
+[
+  {
+    "title": "DeFectus",
+    "description": "Учебный проект. Система контроля дефектов строительства. Включает дашборд, создание дефектов (с возможностью приложить изображение) и систему ролей.",
+    "imageUrl": "/defectus.png",
+    "projectUrl": "https://github.com/otiosumax/pnbf1",
+    "tags": ["Vue", "TypeScript", "Tailwind", "Vue router", "Pinia", "Vite"]
+  }
+]

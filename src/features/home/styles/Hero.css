@@ -18,6 +18,10 @@
     flex: 1;
   }
 
+  p {
+    font-size: clamp(26pt, 3vw, 30pt);
+  }
+
   img {
     max-width: 34vw;
     width: auto;
