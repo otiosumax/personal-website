@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <>
       <div id="header">
-        <span id="nick">otiosumax</span>
+        <span id="nick">otiosum<a href="/admin">a</a>x</span>
         <div>
           <button
             onClick={() => {

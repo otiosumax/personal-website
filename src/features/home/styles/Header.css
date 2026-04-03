@@ -25,6 +25,11 @@
     cursor: pointer;
   }
 
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+
   #nick {
     text-shadow: 0 0 1em var(--primary-color);
   }
