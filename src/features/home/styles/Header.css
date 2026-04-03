@@ -1,16 +1,15 @@
 #header {
   display: flex;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  /* background-color: black; */
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  span {
+  p {
     font-size: 22pt;
     margin: 8pt 46pt;
   }

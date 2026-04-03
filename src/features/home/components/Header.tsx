@@ -10,8 +10,8 @@ export default function Header() {
   return (
     <>
       <div id="header">
-        <span id="nick">otiosum<a href="/admin">a</a>x</span>
-        <div>
+        <p id="nick">otiosum<a href="/admin">a</a>x</p>
+        <div style={{display: "inline-flex"}}>
           <button
             onClick={() => {
               if (theme === "dark") {
@@ -25,7 +25,7 @@ export default function Header() {
           >
             сменить тему
           </button>
-          <span>связаться</span>
+          <p>связаться</p>
         </div>
       </div>
     </>
