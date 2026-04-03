@@ -1,5 +1,6 @@
 :root {
   --bg-color: #efffff;
+  --bg-variant: white;
   --text-color: #343434;
   --primary-color: #ffd000;
   --on-primary-color: #343434;
@@ -11,6 +12,7 @@
 
 [data-theme="dark"] {
   --bg-color: #343434;
+  --bg-variant: black;
   --text-color: #efffff;
   background-color: black;
 }
@@ -18,6 +20,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
     --bg-color: #343434;
+    --bg-vatiant: black;
     --text-color: #efffff;
     background-color: black;
   }
@@ -43,9 +46,16 @@ h1 {
 }
 
 .wrapper {
-  /* width: 100%;
-  padding: 0 112px; */
+  width: 100%;
+  padding: 0 112px;
 
-  width: 1000pt;
-  margin: 0 auto;
+  /* width: 1000pt;
+  margin: 0 auto; */
+}
+
+.background-rectangle {
+  border-radius: 34pt;
+  background-color: rgb(from var(--primary-color) r g b / 34%);
+  position: absolute;
+  z-index: -1;
 }
