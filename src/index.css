@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #efffff;
+  --text-color: #343434;
+  --primary-color: #ffd000;
+  --on-primary-color: #343434;
+
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+
+  background-color: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #343434;
+  --text-color: #efffff;
+  background-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg-color: #343434;
+    --text-color: #efffff;
+    background-color: black;
+  }
+}
+
+* {
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+body {
+  color: var(--text-color);
+  margin: 0;
+}
+
+p {
+  font-size: 34px;
+}
+
+h1 {
+  font-size: 56pt;
+}
+
+.wrapper {
+  /* width: 100%;
+  padding: 0 112px; */
+
+  width: 1000pt;
+  margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+#header {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: black; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-size: 22pt;
+    margin: 8pt 46pt;
+  }
+
+  button {
+    font-size: 22pt;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color);
+  }
+  button:hover {
+    cursor: pointer;
+  }
+
+  #nick {
+    text-shadow: 0 0 1em var(--primary-color);
+  }
+}

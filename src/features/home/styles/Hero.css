@@ -1,0 +1,31 @@
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--bg-color);
+
+  span {
+    font-size: 72pt;
+    font-style: italic;
+  }
+
+  h1 {
+    margin: 0 0 12pt;
+    flex: 1;
+  }
+
+  #separator {
+    height: 16pt;
+    width: 224pt;
+
+    background-color: rgb(from var(--primary-color) r g b / 34%);
+  }
+}
+
+.hero-content {
+  display: flex;
+  justify-content:space-between;
+  /* gap: 32pt */
+}
