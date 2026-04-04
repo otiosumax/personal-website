@@ -1,0 +1,12 @@
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--bg-variant);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+
+  min-height: 350pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
