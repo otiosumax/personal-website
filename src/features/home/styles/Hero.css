@@ -51,6 +51,11 @@
     transform: rotate(7.2deg) translate(20pt, -17pt);
   }
 
+  .background-rectangle.hovered {
+    background-color: rgb(from var(--primary-color) r g b / 68%);
+    transform: rotate(7.2deg) translate(30pt, -27pt);
+  }
+
   #separator {
     height: 16pt;
     width: 224pt;

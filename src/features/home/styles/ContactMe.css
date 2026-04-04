@@ -1,0 +1,11 @@
+#contact-me {
+  span {
+    color: var(--primary-color);
+  }
+
+  a {
+    font-size: 20pt;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+}

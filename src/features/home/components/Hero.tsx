@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "../styles/Hero.css";
 
 export default function Hero() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div id="hero">
       <div className="hero-content wrapper">
@@ -23,8 +26,11 @@ export default function Hero() {
             src="/src/assets/stones.jpg"
             alt="камушки"
             className="hero-image"
+
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
           />
-          <div className="background-rectangle" />
+          <div className={`background-rectangle ${isHovered ? 'hovered' : ''}`} />
         </div>
       </div>
     </div>

@@ -7,14 +7,14 @@
 
   font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
 
-  background-color: #ffffff;
+  background-color: var(--bg-variant);
 }
 
 [data-theme="dark"] {
   --bg-color: #343434;
-  --bg-variant: black;
+  --bg-variant: #222222;
   --text-color: #efffff;
-  background-color: black;
+  background-color:var(--bg-variant);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@
     --bg-color: #343434;
     --bg-vatiant: black;
     --text-color: #efffff;
-    background-color: black;
+    background-color: var(--bg-variant);
   }
 }
 
@@ -47,6 +47,7 @@ h1 {
 
 h2 {
   font-size: 42pt;
+  font-weight: bolder;
 }
 
 h3 {
