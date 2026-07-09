@@ -1,5 +1,6 @@
-import { useState } from "react";
 import "../styles/Hero.css";
+
+import { useState } from "react";
 
 export default function Hero() {
   const [isHovered, setIsHovered] = useState(false);
@@ -23,7 +24,7 @@ export default function Hero() {
         <div style={{ position: "relative" }}>
           <p id="location">г. Москва</p>
           <img
-            src="/src/assets/stones.jpg"
+            src="/personal-website/stones.jpg"
             alt="камушки"
             className="hero-image"
 

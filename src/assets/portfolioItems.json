@@ -2,8 +2,15 @@
   {
     "title": "DeFectus",
     "description": "Учебный проект. Система контроля дефектов строительства. Включает дашборд, создание дефектов (с возможностью приложить изображение) и систему ролей.",
-    "imageUrl": "/defectus.png",
+    "imageUrl": "/personal-website/defectus.png",
     "projectUrl": "https://github.com/otiosumax/pnbf1",
     "tags": ["Vue", "TypeScript", "Tailwind", "Vue router", "Pinia", "Vite"]
+  },
+  {
+    "title": "Здесь будут черви",
+    "description": "Простенький онлайн-магазин червей на нитках. Есть карточки товаров, корзина, страница оплаты и форма оплаты",
+    "imageUrl": "/personal-website/squirmles.png",
+    "projectUrl": "https://github.com/otiosumax/squirmles-shop",
+    "tags" : ["React", "TypeScript", "React-router", "Vite"]
   }
 ]

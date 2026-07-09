@@ -1,5 +1,5 @@
 import "../styles/Portfolio.css";
-import portfolioJson from "../../../assets/portfolioItems.json" assert { type: "json" };
+import portfolioJson from "../../../assets/portfolioItems.json" with { type: "json" };
 import PortfolioItem from "./PortfolioItem";
 
 export interface PortfolioItem {
